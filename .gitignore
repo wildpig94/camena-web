@@ -1,0 +1,16 @@
+# ─── Archivos que NUNCA deben publicarse ───
+*.pdf
+*.zip
+*.key
+*.pem
+*.xlsx
+*.docx
+*.odt
+*.numbers
+*.pages
+
+# ─── Entorno / herramientas ───
+node_modules/
+.netlify/
+.DS_Store
+Thumbs.db

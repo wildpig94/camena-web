@@ -1,0 +1,5 @@
+# ─── CAMENA · Configuración de publicación (sitio estático) ───
+# Solo se publica la raíz: index.html + css/ + js/ + imagenes/
+# (los archivos sensibles ya NO viven en esta carpeta)
+[build]
+  publish = "."

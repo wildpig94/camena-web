@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="titulo">CAMENA · IA con propósito — Webs, Google y WhatsApp para negocios locales</title>
+  <meta id="metaDesc" name="description" content="CAMENA es una marca de tecnología y consultoría en Apatzingán, Michoacán. Ponemos a los negocios locales en internet (sitio web, Google Business y WhatsApp Business) y usamos datos e IA para que crezcan. Diagnóstico gratuito y sin compromiso." />
+  <meta property="og:title" content="CAMENA · IA con propósito. Lógica que conecta" />
+  <meta property="og:description" content="Tecnología y consultoría para negocios locales: sitio web, Google Business y WhatsApp Business, con datos e IA para crecer. Diagnóstico gratuito." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_MX" />
+  <meta property="og:url" content="https://camena-apatzingan.netlify.app" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230F2B46'/><text x='50' y='68' font-size='52' font-family='Arial' font-weight='bold' fill='%23D9B44A' text-anchor='middle'>C</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "CAMENA",
+    "slogan": "IA con propósito. Lógica que conecta",
+    "description": "Marca de tecnología y consultoría en Apatzingán, Michoacán. Sitio web, Google Business y WhatsApp Business para negocios locales, con datos e inteligencia artificial.",
+    "areaServed": "Apatzingán, Michoacán, México",
+    "address": { "@type": "PostalAddress", "addressLocality": "Apatzingán", "addressRegion": "Michoacán", "addressCountry": "MX" },
+    "telephone": "+524435794642",
+    "email": "camenalabs@proton.me",
+    "url": "https://camena-apatzingan.netlify.app",
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sitio web profesional" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Optimización de Google Business" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Configuración de WhatsApp Business" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Came Diagnostics" } }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ═══════════ ENCABEZADO ═══════════ -->
+  <header class="cabecera" id="cabecera">
+    <div class="contenedor cabecera__interior">
+      <a href="#inicio" class="marca">
+        <img src="imagenes/logo-faro.svg" alt="Logo CAMENA" class="marca__marca" />
+        <span class="marca__texto">CAMENA</span>
+      </a>
+      <nav class="nav" id="nav" data-i18n-aria="nav_aria" aria-label="Menú principal">
+        <a href="#inicio" class="nav__enlace" data-i18n="nav_inicio">Inicio</a>
+        <a href="#servicios" class="nav__enlace" data-i18n="nav_servicios">Servicios</a>
+        <a href="#metodo" class="nav__enlace" data-i18n="nav_metodo">Método</a>
+        <a href="#camena" class="nav__enlace" data-i18n="nav_camena">Camena</a>
+        <a href="#faq" class="nav__enlace" data-i18n="nav_faq">Preguntas</a>
+        <a href="#contacto" class="nav__enlace nav__enlace--cta" data-i18n="nav_cotizar">Cotizar gratis</a>
+      </nav>
+      <div class="cabecera__acciones">
+        <div class="idioma" id="idioma">
+          <button class="idioma__btn idioma__btn--activo" data-idioma="es" aria-label="Español">ES</button>
+          <span class="idioma__sep">/</span>
+          <button class="idioma__btn" data-idioma="en" aria-label="English">EN</button>
+        </div>
+        <button class="menu-boton" id="menuBoton" data-i18n-aria="menu_boton_aria" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero__patron"></div>
+      <div class="contenedor hero__contenido">
+        <p class="hero__etiqueta" data-i18n="hero_etiqueta">Camena · IA con propósito. Lógica que conecta</p>
+        <h1 class="hero__titulo" data-i18n="hero_titulo">Clientes de fuera,<br /><em>negocios de aquí</em></h1>
+        <p class="hero__texto" data-i18n="hero_texto">
+          Ponemos a los negocios de Apatzingán y Michoacán en internet para que
+          los encuentren clientes de cerca y de lejos: sitio web, Google y
+          WhatsApp, con datos e inteligencia artificial para que cada clic se
+          convierta en cliente.
+        </p>
+        <div class="hero__botones">
+          <a href="#contacto" class="boton boton--dorado" data-i18n="hero_boton_1">Quiero aparecer en internet</a>
+          <a href="#metodo" class="boton boton--contorno" data-i18n="hero_boton_2">Ver cómo trabajamos</a>
+        </div>
+        <div class="hero__datos">
+          <div class="hero__dato"><strong data-i18n="hero_d1_num">100%</strong><span data-i18n="hero_d1_txt">diseño para celular y PC</span></div>
+          <div class="hero__dato"><strong data-i18n="hero_d2_num">Gratis</strong><span data-i18n="hero_d2_txt">diagnóstico sin compromiso</span></div>
+          <div class="hero__dato"><strong data-i18n="hero_d3_num">Días</strong><span data-i18n="hero_d3_txt">de inicio a publicado</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ EL PROBLEMA ═══════════ -->
+    <section class="seccion seccion--crema" id="problema">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta" data-i18n="prob_etiqueta">El problema</p>
+          <h2 class="seccion__titulo" data-i18n="prob_titulo">Si no apareces en internet, <em>no existes para quien está lejos</em></h2>
+        </div>
+        <div class="problema">
+          <p class="problema__texto" data-i18n="prob_texto_1">
+            Un hijo que vive en California quiere rentar un salón de fiestas para
+            el bautizo de su sobrino. Una familia de visita quiere encontrar la
+            cafetería que le recomendaron. Un cliente fuera de la ciudad quiere
+            pedir por WhatsApp.
+          </p>
+          <p class="problema__texto" data-i18n="prob_texto_2">
+            Todos abren su celular y buscan. <strong>Si tu negocio no aparece con
+            fotos, horarios y un botón para escribirte, ese cliente se va con
+            quien sí apareció.</strong>
+          </p>
+          <div class="problema__cajas">
+            <div class="problema__caja">
+              <span class="problema__icono">📵</span>
+              <h3 data-i18n="prob_caja1_h3">Sin presencia digital</h3>
+              <p data-i18n="prob_caja1_p">Solo te encuentran los que ya te conocen de vista.</p>
+            </div>
+            <div class="problema__caja">
+              <span class="problema__icono">➡️</span>
+              <h3 data-i18n="prob_caja2_h3">Con presencia digital</h3>
+              <p data-i18n="prob_caja2_p">Te encuentran desde cualquier ciudad, te ven, te escriben y te pagan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SERVICIOS ═══════════ -->
+    <section class="seccion" id="servicios">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta" data-i18n="serv_etiqueta">Servicios</p>
+          <h2 class="seccion__titulo" data-i18n="serv_titulo">Todo lo que tu negocio necesita para <em>ser encontrado</em></h2>
+          <p class="seccion__intro" data-i18n="serv_intro">Tres servicios que se complementan. Empieza por uno o llévate el paquete completo.</p>
+        </div>
+
+        <div class="servicios">
+          <article class="servicio">
+            <span class="servicio__icono">🌐</span>
+            <h3 class="servicio__titulo" data-i18n="sv1_titulo">Sitio web profesional</h3>
+            <p class="servicio__texto" data-i18n="sv1_texto">
+              Tu negocio en internet con tus fotos reales, horarios, menú o
+              catálogo, ubicación y botones de WhatsApp. Diseñado para verse
+              perfecto en el celular de tus clientes.
+            </p>
+            <ul class="servicio__lista">
+              <li data-i18n="sv1_l1">Diseño a la medida con tus fotos</li>
+              <li data-i18n="sv1_l2">Se ve en celular y computadora</li>
+              <li data-i18n="sv1_l3">Publicado en internet con tu dirección</li>
+              <li data-i18n="sv1_l4">Actualizaciones incluidas en tu renta</li>
+            </ul>
+          </article>
+
+          <article class="servicio">
+            <span class="servicio__icono">📍</span>
+            <h3 class="servicio__titulo" data-i18n="sv2_titulo">Optimización de Google Business</h3>
+            <p class="servicio__texto" data-i18n="sv2_texto">
+              Que tu negocio aparezca cuando buscan "cafetería en Apatzingán",
+              "salones de fiestas en Apatzingán" o tu tipo de negocio — con
+              fotos, horarios, reseñas y botón de cómo llegar.
+            </p>
+            <ul class="servicio__lista">
+              <li data-i18n="sv2_l1">Alta o mejora de tu ficha en Google Maps</li>
+              <li data-i18n="sv2_l2">Fotos, horarios y categorías correctas</li>
+              <li data-i18n="sv2_l3">Estrategia para aparecer en las búsquedas</li>
+              <li data-i18n="sv2_l4">Seguimiento de reseñas de clientes</li>
+            </ul>
+          </article>
+
+          <article class="servicio">
+            <span class="servicio__icono">💬</span>
+            <h3 class="servicio__titulo" data-i18n="sv3_titulo">Configuración de WhatsApp Business</h3>
+            <p class="servicio__texto" data-i18n="sv3_texto">
+              Convierte tu WhatsApp en una herramienta de ventas profesional:
+              catálogo de productos, respuesta automática y enlace directo para
+              que los clientes te escriban desde tu sitio, Instagram o Facebook.
+            </p>
+            <ul class="servicio__lista">
+              <li data-i18n="sv3_l1">Perfil de negocio con horarios y ubicación</li>
+              <li data-i18n="sv3_l2">Catálogo de productos o servicios</li>
+              <li data-i18n="sv3_l3">Mensajes de bienvenida y respuesta rápida</li>
+              <li data-i18n="sv3_l4">Botón de WhatsApp en tu sitio y redes</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="servicios__nota" data-i18n="serv_nota">
+          💡 Cada negocio es distinto, por eso no publicamos un precio fijo.
+          Cotiza gratis y te mandamos una propuesta clara, sin compromiso.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════ MÉTODO ═══════════ -->
+    <section class="seccion seccion--crema" id="metodo">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta" data-i18n="met_etiqueta">Cómo trabajamos</p>
+          <h2 class="seccion__titulo" data-i18n="met_titulo">De "no aparezco" a <em>"me encuentran"</em> en 4 pasos</h2>
+          <p class="seccion__intro" data-i18n="met_intro">Un método claro y validado con negocios reales de Apatzingán.</p>
+        </div>
+
+        <div class="proceso">
+          <div class="paso">
+            <span class="paso__numero">1</span>
+            <h3 class="paso__titulo" data-i18n="p1_titulo">Diagnóstico gratuito</h3>
+            <p class="paso__texto" data-i18n="p1_texto">Nos cuentas tu negocio y revisamos cómo te encuentran hoy en internet.</p>
+          </div>
+          <div class="paso">
+            <span class="paso__numero">2</span>
+            <h3 class="paso__titulo" data-i18n="p2_titulo">Propuesta clara</h3>
+            <p class="paso__texto" data-i18n="p2_texto">Te mandamos qué incluye y cuánto cuesta, sin compromiso y sin letras chiquitas.</p>
+          </div>
+          <div class="paso">
+            <span class="paso__numero">3</span>
+            <h3 class="paso__titulo" data-i18n="p3_titulo">Desarrollo</h3>
+            <p class="paso__texto" data-i18n="p3_texto">Creamos tu sitio con tus fotos y datos reales; te lo mostramos antes de publicar.</p>
+          </div>
+          <div class="paso">
+            <span class="paso__numero">4</span>
+            <h3 class="paso__titulo" data-i18n="p4_titulo">Entrega y seguimiento</h3>
+            <p class="paso__texto" data-i18n="p4_texto">Publicamos tu sitio y lo mantenemos actualizado con tu renta mensual.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CAMENA · LA MARCA ═══════════ -->
+    <section class="seccion seccion--navy" id="camena">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta seccion__etiqueta--dorada" data-i18n="cam_etiqueta">Más que una agencia</p>
+          <h2 class="seccion__titulo seccion__titulo--claro" data-i18n="cam_titulo">Camena: <em>IA con propósito. Lógica que conecta</em></h2>
+          <p class="seccion__intro seccion__intro--claro" data-i18n="cam_intro">
+            Detrás de cada sitio web hay una forma de trabajar: usamos datos e
+            inteligencia artificial para encontrar las fugas de tu negocio y
+            convertirlas en ingresos.
+          </p>
+        </div>
+
+        <div class="lineas">
+          <article class="linea">
+            <span class="linea__icono">🥋</span>
+            <div class="linea__cuerpo">
+              <span class="linea__badge" data-i18n="cam_dx_badge">Consultoría · Gratis</span>
+              <h3 class="linea__titulo" data-i18n="cam_dx_titulo">Came Diagnostics</h3>
+              <p class="linea__texto" data-i18n="cam_dx_texto">
+                Diagnóstico operativo para gimnasios y academias. Un cuestionario
+                de 7 preguntas encuentra dónde se te escapa el dinero: leads sin
+                responder, pagos sin registrar, membresías sin seguimiento.
+                Te damos una evaluación honesta y una propuesta de mejora.
+              </p>
+              <a class="linea__link" href="#contacto" data-i18n="cam_dx_cta">Quiero mi diagnóstico gratuito</a>
+            </div>
+          </article>
+
+          <article class="linea">
+            <span class="linea__icono">🃏</span>
+            <div class="linea__cuerpo">
+              <span class="linea__badge linea__badge--proximo" data-i18n="cam_dy_badge">Software · En desarrollo</span>
+              <h3 class="linea__titulo" data-i18n="cam_dy_titulo">Camena Dynamics</h3>
+              <p class="linea__texto" data-i18n="cam_dy_texto">
+                Motor de decisiones para coleccionistas de cartas TCG. Calcula
+                con números si conviene mandar a calificar una carta (PSA/Beckett):
+                ROI, probabilidad de pérdida y punto de equilibrio, con una
+                recomendación clara.
+              </p>
+              <a class="linea__link" href="#contacto" data-i18n="cam_dy_cta">Avísame cuando esté listo</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="embudo">
+          <p class="embudo__titulo" data-i18n="cam_embudo_titulo">El camino Camena</p>
+          <ol class="embudo__lista">
+            <li><span class="embudo__n">1</span><span data-i18n="cam_embudo_1">Web (entrada)</span></li>
+            <li><span class="embudo__n">2</span><span data-i18n="cam_embudo_2">Diagnóstico</span></li>
+            <li><span class="embudo__n">3</span><span data-i18n="cam_embudo_3">IA y datos</span></li>
+            <li><span class="embudo__n">4</span><span data-i18n="cam_embudo_4">Todos tus servicios</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CONFIANZA ═══════════ -->
+    <section class="seccion seccion--confianza">
+      <div class="contenedor">
+        <div class="confianza">
+          <div class="confianza__item"><span class="confianza__icono">🔒</span><p data-i18n="conf_1">Diagnóstico 100% gratuito y sin compromiso</p></div>
+          <div class="confianza__item"><span class="confianza__icono">⚡</span><p data-i18n="conf_2">Publicamos tu sitio en internet en días</p></div>
+          <div class="confianza__item"><span class="confianza__icono">📛</span><p data-i18n="conf_3">El sitio y tu dominio son tuyos</p></div>
+          <div class="confianza__item"><span class="confianza__icono">🤝</span><p data-i18n="conf_4">Propuesta clara antes de pagar, sin letras chiquitas</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PREGUNTAS FRECUENTES ═══════════ -->
+    <section class="seccion seccion--crema" id="faq">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta" data-i18n="faq_etiqueta">Preguntas frecuentes</p>
+          <h2 class="seccion__titulo" data-i18n="faq_titulo">¿Te quedan dudas? <em>Aquí las resolvemos</em></h2>
+        </div>
+        <div class="faq">
+          <details class="faq__item">
+            <summary class="faq__pregunta" data-i18n="faq_q1">¿Cuánto cuesta?</summary>
+            <p class="faq__respuesta" data-i18n="faq_a1">Cada negocio es distinto, por eso no publicamos un precio fijo. Te hacemos un diagnóstico gratuito y te mandamos una propuesta clara y a la medida, sin compromiso.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__pregunta" data-i18n="faq_q2">¿Qué pasa si no me gusta el diseño?</summary>
+            <p class="faq__respuesta" data-i18n="faq_a2">Hacemos los ajustes necesarios hasta que estés conforme. Tu plan incluye rondas de cambios, así que no te quedas con algo que no te gusta.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__pregunta" data-i18n="faq_q3">¿Puedo cancelar el mantenimiento mensual?</summary>
+            <p class="faq__respuesta" data-i18n="faq_a3">Sí. El mantenimiento cubre actualizaciones y soporte; puedes cancelarlo cuando quieras y el sitio ya publicado sigue en línea.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__pregunta" data-i18n="faq_q4">¿Cuánto tarda en estar listo?</summary>
+            <p class="faq__respuesta" data-i18n="faq_a4">Normalmente en días: lo diseñamos con tus fotos y datos y lo publicamos esa misma semana.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__pregunta" data-i18n="faq_q5">¿Qué es Came Diagnostics?</summary>
+            <p class="faq__respuesta" data-i18n="faq_a5">Es nuestro diagnóstico operativo gratuito para gimnasios y academias: en 7 preguntas detectamos fugas en leads, pagos, membresías y seguimiento, y te proponemos cómo cerrarlas.</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__pregunta" data-i18n="faq_q6">¿Qué es Camena Dynamics?</summary>
+            <p class="faq__respuesta" data-i18n="faq_a6">Nuestro motor de decisiones para coleccionistas de cartas TCG. Está en desarrollo; calcula con números si conviene calificar una carta. Escríbenos y te avisamos cuando esté listo.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CONTACTO ═══════════ -->
+    <section class="seccion seccion--navy" id="contacto">
+      <div class="contenedor">
+        <div class="seccion__encabezado">
+          <p class="seccion__etiqueta seccion__etiqueta--dorada" data-i18n="cont_etiqueta">Contacto</p>
+          <h2 class="seccion__titulo seccion__titulo--claro" data-i18n="cont_titulo">Cuéntanos de tu negocio, <em>te respondemos hoy</em></h2>
+          <p class="seccion__intro seccion__intro--claro" data-i18n="cont_intro">Diagnóstico gratuito. Sin compromiso.</p>
+        </div>
+
+        <div class="contacto">
+          <form class="contacto__formulario" id="formContacto">
+            <label class="campo">
+              <span data-i18n="campo_nombre_label">Tu nombre</span>
+              <input type="text" id="campoNombre" name="nombre" placeholder="Ej. María López" required data-i18n-placeholder="campo_nombre_ph" />
+            </label>
+            <label class="campo">
+              <span data-i18n="campo_negocio_label">Nombre de tu negocio</span>
+              <input type="text" id="campoNegocio" name="negocio" placeholder="Ej. Salón Xcaret" required data-i18n-placeholder="campo_negocio_ph" />
+            </label>
+            <label class="campo">
+              <span data-i18n="campo_servicio_label">¿Qué necesitas?</span>
+              <select id="campoServicio" name="servicio">
+                <option value="Sitio web" data-i18n="opt_web">Sitio web profesional</option>
+                <option value="Google Business" data-i18n="opt_google">Optimización de Google Business</option>
+                <option value="WhatsApp Business" data-i18n="opt_whatsapp">Configuración de WhatsApp Business</option>
+                <option value="Came Diagnostics" data-i18n="opt_dx">Came Diagnostics (gimnasios)</option>
+                <option value="Camena Dynamics" data-i18n="opt_dy">Camena Dynamics (cartas TCG)</option>
+                <option value="Otro" data-i18n="opt_otro">Otro / No sé, necesito diagnóstico</option>
+              </select>
+            </label>
+            <label class="campo">
+              <span data-i18n="campo_mensaje_label">Cuéntanos más (opcional)</span>
+              <textarea id="campoMensaje" name="mensaje" rows="3" placeholder="¿Qué vende tu negocio? ¿Dónde está?" data-i18n-placeholder="campo_mensaje_ph"></textarea>
+            </label>
+            <button type="submit" class="boton boton--dorado boton--ancho" data-i18n="form_boton">Enviar por WhatsApp 💬</button>
+            <p class="contacto__ayuda" data-i18n="form_ayuda">El mensaje se abre en tu WhatsApp listo para enviar.</p>
+          </form>
+
+          <div class="contacto__directo">
+            <p class="contacto__titulo" data-i18n="directo_titulo">¿Más fácil? Escríbenos directo</p>
+            <a class="contacto__boton" id="waDirecto" href="https://wa.me/524435794642" target="_blank" rel="noopener">
+              <span class="contacto__icono">💬</span>
+              <span data-i18n="directo_boton">WhatsApp directo</span>
+            </a>
+            <p class="contacto__telefono">📞 <a href="tel:+524435794642" data-i18n="contacto_telefono">+52 443 579 4642</a> <span data-i18n="contacto_telefono_lbl">(llámanos o escribe)</span></p>
+            <p class="contacto__correo">✉️ <a href="mailto:camenalabs@proton.me">camenalabs@proton.me</a></p>
+            <p class="contacto__horario" data-i18n="horario">Respondemos de lunes a sábado, de 9 am a 8 pm.</p>
+            <p class="contacto__ubicacion" data-i18n="ubicacion">📍 Apatzingán, Michoacán · Trabajamos a distancia con todo México y EE. UU.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ PIE ═══════════ -->
+  <footer class="pie">
+    <div class="contenedor pie__interior">
+      <p class="pie__marca"><img src="imagenes/logo-faro.svg" alt="" class="pie__marca__img" /> CAMENA</p>
+      <p class="pie__lema" data-i18n="pie_lema">IA con propósito. Lógica que conecta.</p>
+      <a class="pie__tel" href="tel:+524435794642" data-i18n="pie_tel">📞 +52 443 579 4642</a>
+      <p class="pie__texto" data-i18n="pie_texto">Tecnología y consultoría · Apatzingán, Michoacán</p>
+      <p class="pie__autor" data-i18n="pie_autor"><strong>Edgar Alexis Carbajal Mendoza</strong> — Fundador &amp; Desarrollador · <strong>Qiao Wen Zhong</strong> — Socia Cofundadora</p>
+      <p class="pie__credenciales" data-i18n="pie_credenciales">Certificado en prompt engineering · mantenimiento de software · formándome en seguridad informática</p>
+      <p class="pie__credito">© <span id="anio">2026</span> CAMENA · <span data-i18n="pie_credito">Hecho por Edgar Alexis Carbajal Mendoza</span></p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-flotante" id="waFlotante" href="https://wa.me/524435794642" target="_blank" rel="noopener" data-i18n-aria="wa_aria" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" width="30" height="30" fill="white" aria-hidden="true">
+      <path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.2 7L4 29l7.2-2.1c1.5.8 3.1 1.1 4.8 1.1 6.6 0 12-5.4 12-12S22.6 3 16 3zm5.9 16.4c-.3.8-1.7 1.5-2.4 1.6-.6.1-1.4.1-2.2-.1-.5-.2-1.1-.4-1.9-.7-3.3-1.4-5.4-4.8-5.6-5-.2-.2-1.3-1.8-1.3-3.4s.8-2.4 1.1-2.7c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.5.8 1.9.8 2 .1.1.2.3.1.5-.1.2-.1.4-.2.5l-.4.6c-.1.2-.3.3-.1.6.1.3.7 1.1 1.5 1.8 1 1 1.9 1.4 2.2 1.5.3.1.4.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.1.1.7-.2 1.5z"/>
+    </svg>
+  </a>
+
+  <script src="js/idiomas.js"></script>
+  <script src="js/principal.js"></script>
+</body>
+</html>
