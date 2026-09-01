@@ -1,18 +1,18 @@
 /* ═══════════════════════════════════════════
-   CAMENA — Idioma ES/EN (rediseño híbrido)
+   CAMENA — Idioma ES/EN
    ═══════════════════════════════════════════ */
 
 const IDIOMAS = {
   es: {
-    _titulo: "CAMENA · IA con propósito — Webs, Google y WhatsApp para negocios locales",
+    _titulo: "CAMENA · Agencia digital en Apatzingán — Páginas web para negocios locales",
     nav_aria: "Menú principal",
     nav_inicio: "Inicio", nav_servicios: "Servicios", nav_metodo: "Método",
-    nav_camena: "Camena", nav_faq: "Preguntas", nav_cotizar: "Cotizar gratis",
+    nav_faq: "Preguntas", nav_cotizar: "Cotizar gratis",
     menu_boton_aria: "Abrir menú",
 
-    hero_etiqueta: "Camena · IA con propósito. Lógica que conecta",
+    hero_etiqueta: "Agencia de visibilidad digital · Apatzingán, Michoacán",
     hero_titulo: "Clientes de fuera,<br /><em>negocios de aquí</em>",
-    hero_texto: "Ponemos a los negocios de Apatzingán y Michoacán en internet para que los encuentren clientes de cerca y de lejos: sitio web, Google y WhatsApp, con datos e inteligencia artificial para que cada clic se convierta en cliente.",
+    hero_texto: "Ayudamos a los negocios de Apatzingán a que los encuentren quienes buscan desde fuera: paisanos en EE.&nbsp;UU., familiares de visita o clientes que rentan y compran a distancia.",
     hero_boton_1: "Quiero aparecer en internet", hero_boton_2: "Ver cómo trabajamos",
     hero_d1_num: "100%", hero_d1_txt: "diseño para celular y PC",
     hero_d2_num: "Gratis", hero_d2_txt: "diagnóstico sin compromiso",
@@ -47,20 +47,6 @@ const IDIOMAS = {
     p3_titulo: "Desarrollo", p3_texto: "Creamos tu sitio con tus fotos y datos reales; te lo mostramos antes de publicar.",
     p4_titulo: "Entrega y seguimiento", p4_texto: "Publicamos tu sitio y lo mantenemos actualizado con tu renta mensual.",
 
-    cam_etiqueta: "Más que una agencia",
-    cam_titulo: "Camena: <em>IA con propósito. Lógica que conecta</em>",
-    cam_intro: "Detrás de cada sitio web hay una forma de trabajar: usamos datos e inteligencia artificial para encontrar las fugas de tu negocio y convertirlas en ingresos.",
-    cam_dx_badge: "Consultoría · Gratis",
-    cam_dx_titulo: "Came Diagnostics",
-    cam_dx_texto: "Diagnóstico operativo para gimnasios y academias. Un cuestionario de 7 preguntas encuentra dónde se te escapa el dinero: leads sin responder, pagos sin registrar, membresías sin seguimiento. Te damos una evaluación honesta y una propuesta de mejora.",
-    cam_dx_cta: "Quiero mi diagnóstico gratuito",
-    cam_dy_badge: "Software · En desarrollo",
-    cam_dy_titulo: "Camena Dynamics",
-    cam_dy_texto: "Motor de decisiones para coleccionistas de cartas TCG. Calcula con números si conviene mandar a calificar una carta (PSA/Beckett): ROI, probabilidad de pérdida y punto de equilibrio, con una recomendación clara.",
-    cam_dy_cta: "Avísame cuando esté listo",
-    cam_embudo_titulo: "El camino Camena",
-    cam_embudo_1: "Web (entrada)", cam_embudo_2: "Diagnóstico", cam_embudo_3: "IA y datos", cam_embudo_4: "Todos tus servicios",
-
     conf_1: "Diagnóstico 100% gratuito y sin compromiso",
     conf_2: "Publicamos tu sitio en internet en días",
     conf_3: "El sitio y tu dominio son tuyos",
@@ -76,10 +62,6 @@ const IDIOMAS = {
     faq_a3: "Sí. El mantenimiento cubre actualizaciones y soporte; puedes cancelarlo cuando quieras y el sitio ya publicado sigue en línea.",
     faq_q4: "¿Cuánto tarda en estar listo?",
     faq_a4: "Normalmente en días: lo diseñamos con tus fotos y datos y lo publicamos esa misma semana.",
-    faq_q5: "¿Qué es Came Diagnostics?",
-    faq_a5: "Es nuestro diagnóstico operativo gratuito para gimnasios y academias: en 7 preguntas detectamos fugas en leads, pagos, membresías y seguimiento, y te proponemos cómo cerrarlas.",
-    faq_q6: "¿Qué es Camena Dynamics?",
-    faq_a6: "Nuestro motor de decisiones para coleccionistas de cartas TCG. Está en desarrollo; calcula con números si conviene calificar una carta. Escríbenos y te avisamos cuando esté listo.",
 
     cont_etiqueta: "Contacto",
     cont_titulo: "Cuéntanos de tu negocio, <em>te respondemos hoy</em>",
@@ -87,33 +69,29 @@ const IDIOMAS = {
     campo_nombre_label: "Tu nombre", campo_nombre_ph: "Ej. María López",
     campo_negocio_label: "Nombre de tu negocio", campo_negocio_ph: "Ej. Salón Xcaret",
     campo_servicio_label: "¿Qué necesitas?", campo_mensaje_label: "Cuéntanos más (opcional)", campo_mensaje_ph: "¿Qué vende tu negocio? ¿Dónde está?",
-    opt_web: "Sitio web profesional", opt_google: "Optimización de Google Business", opt_whatsapp: "Configuración de WhatsApp Business",
-    opt_dx: "Came Diagnostics (gimnasios)", opt_dy: "Camena Dynamics (cartas TCG)", opt_otro: "Otro / No sé, necesito diagnóstico",
+    opt_web: "Sitio web profesional", opt_google: "Optimización de Google Business", opt_whatsapp: "Configuración de WhatsApp Business", opt_otro: "Otro / No sé, necesito diagnóstico",
     form_boton: "Enviar por WhatsApp 💬", form_ayuda: "El mensaje se abre en tu WhatsApp listo para enviar.",
     directo_titulo: "¿Más fácil? Escríbenos directo", directo_boton: "WhatsApp directo",
     contacto_telefono: "+52 443 579 4642", contacto_telefono_lbl: "(llámanos o escribe)",
     horario: "Respondemos de lunes a sábado, de 9 am a 8 pm.",
     ubicacion: "📍 Apatzingán, Michoacán · Trabajamos a distancia con todo México y EE. UU.",
 
-    pie_lema: "IA con propósito. Lógica que conecta.",
+    pie_lema: "Clientes de fuera, negocios de aquí.",
     pie_tel: "📞 +52 443 579 4642",
-    pie_texto: "Tecnología y consultoría · Apatzingán, Michoacán",
-    pie_autor: "<strong>Edgar Alexis Carbajal Mendoza</strong> — Fundador &amp; Desarrollador · <strong>Qiao Wen Zhong</strong> — Socia Cofundadora",
-    pie_credenciales: "Certificado en prompt engineering · mantenimiento de software · formación en seguridad informática",
-    pie_credito: "Hecho por Edgar Alexis Carbajal Mendoza",
+    pie_texto: "Agencia de visibilidad digital · Apatzingán, Michoacán",
     wa_aria: "Escríbenos por WhatsApp"
   },
 
   en: {
-    _titulo: "CAMENA · AI with purpose — Websites, Google & WhatsApp for local businesses",
+    _titulo: "CAMENA · Digital Agency in Apatzingán — Websites for Local Businesses",
     nav_aria: "Main menu",
     nav_inicio: "Home", nav_servicios: "Services", nav_metodo: "Method",
-    nav_camena: "Camena", nav_faq: "FAQ", nav_cotizar: "Free quote",
+    nav_faq: "FAQ", nav_cotizar: "Free quote",
     menu_boton_aria: "Open menu",
 
-    hero_etiqueta: "Camena · AI with purpose. Logic that connects",
+    hero_etiqueta: "Digital visibility agency · Apatzingán, Michoacán",
     hero_titulo: "Clients from far away,<br /><em>businesses from here</em>",
-    hero_texto: "We put Apatzingán and Michoacán businesses online so clients near and far can find them: website, Google and WhatsApp, with data and artificial intelligence so every click becomes a customer.",
+    hero_texto: "We help Apatzingán businesses get found by people searching from elsewhere: relatives in the U.S., families visiting, or customers who rent and buy from a distance.",
     hero_boton_1: "I want to be found online", hero_boton_2: "See how we work",
     hero_d1_num: "100%", hero_d1_txt: "mobile & desktop design",
     hero_d2_num: "Free", hero_d2_txt: "no-obligation diagnosis",
@@ -148,20 +126,6 @@ const IDIOMAS = {
     p3_titulo: "Development", p3_texto: "We build your site with your real photos and data; we show it to you before publishing.",
     p4_titulo: "Delivery and follow-up", p4_texto: "We publish your site and keep it updated with your monthly fee.",
 
-    cam_etiqueta: "More than an agency",
-    cam_titulo: "Camena: <em>AI with purpose. Logic that connects</em>",
-    cam_intro: "Behind every website there's a way of working: we use data and artificial intelligence to find the leaks in your business and turn them into revenue.",
-    cam_dx_badge: "Consulting · Free",
-    cam_dx_titulo: "Came Diagnostics",
-    cam_dx_texto: "Operational diagnosis for gyms and academies. A 7-question survey finds where your money leaks: unanswered leads, unregistered payments, unmonitored memberships. You get an honest assessment and an improvement proposal.",
-    cam_dx_cta: "I want my free diagnosis",
-    cam_dy_badge: "Software · In development",
-    cam_dy_titulo: "Camena Dynamics",
-    cam_dy_texto: "A decision engine for TCG card collectors. It crunches the numbers to tell you whether a card is worth grading (PSA/Beckett): ROI, probability of loss and break-even point, with a clear recommendation.",
-    cam_dy_cta: "Notify me when it's ready",
-    cam_embudo_titulo: "The Camena path",
-    cam_embudo_1: "Website (entry)", cam_embudo_2: "Diagnosis", cam_embudo_3: "AI & data", cam_embudo_4: "All your services",
-
     conf_1: "100% free diagnosis, no commitment",
     conf_2: "Your site published online in days",
     conf_3: "The site and your domain are yours",
@@ -177,10 +141,6 @@ const IDIOMAS = {
     faq_a3: "Yes. Maintenance covers updates and support; you can cancel anytime and your published site stays online.",
     faq_q4: "How long until it's ready?",
     faq_a4: "Usually within days: we design it with your photos and data and publish it that same week.",
-    faq_q5: "What is Came Diagnostics?",
-    faq_a5: "It's our free operational diagnosis for gyms and academies: in 7 questions we spot leaks in leads, payments, memberships and follow-up, and propose how to close them.",
-    faq_q6: "What is Camena Dynamics?",
-    faq_a6: "Our decision engine for TCG card collectors. It's in development; it crunches the numbers to tell you whether a card is worth grading. Message us and we'll notify you when it's ready.",
 
     cont_etiqueta: "Contact",
     cont_titulo: "Tell us about your business, <em>we'll reply today</em>",
@@ -188,20 +148,16 @@ const IDIOMAS = {
     campo_nombre_label: "Your name", campo_nombre_ph: "e.g. Maria Lopez",
     campo_negocio_label: "Your business name", campo_negocio_ph: "e.g. Xcaret Hall",
     campo_servicio_label: "What do you need?", campo_mensaje_label: "Tell us more (optional)", campo_mensaje_ph: "What does your business sell? Where is it?",
-    opt_web: "Professional website", opt_google: "Google Business optimization", opt_whatsapp: "WhatsApp Business setup",
-    opt_dx: "Came Diagnostics (gyms)", opt_dy: "Camena Dynamics (TCG cards)", opt_otro: "Other / I don't know, I need a diagnosis",
+    opt_web: "Professional website", opt_google: "Google Business optimization", opt_whatsapp: "WhatsApp Business setup", opt_otro: "Other / I don't know, I need a diagnosis",
     form_boton: "Send on WhatsApp 💬", form_ayuda: "The message opens in your WhatsApp ready to send.",
     directo_titulo: "Easier? Message us directly", directo_boton: "WhatsApp direct",
     contacto_telefono: "+52 443 579 4642", contacto_telefono_lbl: "(call or message)",
     horario: "We reply Monday to Saturday, 9 am to 8 pm.",
     ubicacion: "📍 Apatzingán, Michoacán · We work remotely with all of Mexico and the U.S.",
 
-    pie_lema: "AI with purpose. Logic that connects.",
+    pie_lema: "Clients from far away, businesses from here.",
     pie_tel: "📞 +52 443 579 4642",
-    pie_texto: "Technology & consulting · Apatzingán, Michoacán",
-    pie_autor: "<strong>Edgar Alexis Carbajal Mendoza</strong> — Founder &amp; Developer · <strong>Qiao Wen Zhong</strong> — Co-founder",
-    pie_credenciales: "Certified in prompt engineering · software maintenance · cybersecurity training",
-    pie_credito: "Made by Edgar Alexis Carbajal Mendoza",
+    pie_texto: "Digital visibility agency · Apatzingán, Michoacán",
     wa_aria: "Message us on WhatsApp"
   }
 };

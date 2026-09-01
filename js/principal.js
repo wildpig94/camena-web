@@ -74,8 +74,6 @@ const TEXTO_DIRECTO =
     ".servicio",
     ".servicios__nota",
     ".paso",
-    ".linea",
-    ".embudo",
     ".confianza__item",
     ".faq__item",
     ".contacto__formulario",
