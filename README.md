@@ -1,13 +1,13 @@
 # 🚀 CAMENA — Sitio web (rediseño híbrido)
 
 Sitio de una página para **CAMENA**, marca de tecnología y consultoría en
-Apatzingán. Bilingüe (ES/EN), publicado en Netlify.
+Apatzingán. Bilingüe (ES/EN), publicado en GitHub Pages.
 
 **"IA con propósito. Lógica que conecta."**
 
 ## 🌐 En línea
-**https://camena-apatzingan.netlify.app** · (recordatorio: Netlify deja lo nuevo
-privado; ya se puso en **Public**).
+**https://wildpig94.github.io/camena-web/** · GitHub Pages (repo público
+`wildpig94/camena-web`, rama `main`).
 
 ## 🎯 Enfoque del rediseño (híbrido)
 El sitio **vende primero el servicio validado** (sitios web + Google Business +
@@ -28,7 +28,7 @@ camena-web/
 ├── js/principal.js     → Menú, formulario→WhatsApp, botón flotante, animaciones
 ├── imagenes/           → logo-faro.svg (C con faro) + muse-fondo-oscura.jpg
 ├── .gitignore          → bloquea publicar PDFs/zips/xlsx/… y carpetas de entorno
-└── netlify.toml        → publish = "." (solo la raíz con los archivos del sitio)
+└── .nojekyll           → sirve los archivos tal cual en GitHub Pages (sin Jekyll)
 ```
 
 ## ✅ Decisiones (honestidad ante todo)
@@ -53,9 +53,10 @@ camena-web/
 - Si el sitio llegó a estar público con el PDF dentro, **rota la recovery phrase
   de Proton** por precaución.
 
-## 🔓 Netlify (recordatorio)
-Todo sitio nuevo sale **privado** → Configuración > General > Visitor access >
-**Project visibility: Public** (o cambia el default del equipo).
+## 🌍 GitHub Pages
+El sitio se sirve desde la rama `main` (raíz del repo). Para publicar cambios
+haz `git push` a `main` y GitHub Pages reconstruye solo (1-2 min). Si más adelante
+quieres un dominio propio, configúralo en *Settings → Pages → Custom domain*.
 
 ## ✏️ Para actualizar
 - Servicios: sección `id="servicios"` en `index.html`
