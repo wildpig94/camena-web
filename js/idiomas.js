@@ -37,7 +37,7 @@ const IDIOMAS = {
     sv3_titulo: "Configuración de WhatsApp Business",
     sv3_texto: "Convierte tu WhatsApp en una herramienta de ventas profesional: catálogo de productos, respuesta automática y enlace directo para que los clientes te escriban desde tu sitio, Instagram o Facebook.",
     sv3_l1: "Perfil de negocio con horarios y ubicación", sv3_l2: "Catálogo de productos o servicios", sv3_l3: "Mensajes de bienvenida y respuesta rápida", sv3_l4: "Botón de WhatsApp en tu sitio y redes",
-    serv_nota: "💡 Cada negocio es distinto, por eso no publicamos un precio fijo. Cotiza gratis y te mandamos una propuesta clara, sin compromiso.",
+    serv_nota: "Cada negocio es distinto, por eso no publicamos un precio fijo. Cotiza gratis y te mandamos una propuesta clara, sin compromiso.",
 
     met_etiqueta: "Cómo trabajamos",
     met_titulo: "De “no aparezco” a <em>“me encuentran”</em> en 4 pasos",
@@ -70,14 +70,14 @@ const IDIOMAS = {
     campo_negocio_label: "Nombre de tu negocio", campo_negocio_ph: "Ej. Salón Xcaret",
     campo_servicio_label: "¿Qué necesitas?", campo_mensaje_label: "Cuéntanos más (opcional)", campo_mensaje_ph: "¿Qué vende tu negocio? ¿Dónde está?",
     opt_web: "Sitio web profesional", opt_google: "Optimización de Google Business", opt_whatsapp: "Configuración de WhatsApp Business", opt_otro: "Otro / No sé, necesito diagnóstico",
-    form_boton: "Enviar por WhatsApp 💬", form_ayuda: "El mensaje se abre en tu WhatsApp listo para enviar.",
+    form_boton: "Enviar por WhatsApp", form_ayuda: "El mensaje se abre en tu WhatsApp listo para enviar.",
     directo_titulo: "¿Más fácil? Escríbenos directo", directo_boton: "WhatsApp directo",
     contacto_telefono: "+52 443 579 4642", contacto_telefono_lbl: "(llámanos o escribe)",
     horario: "Respondemos de lunes a sábado, de 9 am a 8 pm.",
-    ubicacion: "📍 Apatzingán, Michoacán · Trabajamos a distancia con todo México y EE. UU.",
+    ubicacion: "Apatzingán, Michoacán · Trabajamos a distancia con todo México y EE. UU.",
 
     pie_lema: "Clientes de fuera, negocios de aquí.",
-    pie_tel: "📞 +52 443 579 4642",
+    pie_tel: "+52 443 579 4642",
     pie_texto: "Agencia de visibilidad digital · Apatzingán, Michoacán",
     wa_aria: "Escríbenos por WhatsApp"
   },
@@ -116,7 +116,7 @@ const IDIOMAS = {
     sv3_titulo: "WhatsApp Business setup",
     sv3_texto: "Turn your WhatsApp into a professional sales tool: product catalog, automatic replies and a direct link so customers can message you from your site, Instagram or Facebook.",
     sv3_l1: "Business profile with hours and location", sv3_l2: "Product or service catalog", sv3_l3: "Welcome messages and quick replies", sv3_l4: "WhatsApp button on your site and social media",
-    serv_nota: "💡 Every business is different, so we don't publish a fixed price. Get a free quote and we'll send you a clear, no-obligation proposal.",
+    serv_nota: "Every business is different, so we don't publish a fixed price. Get a free quote and we'll send you a clear, no-obligation proposal.",
 
     met_etiqueta: "How we work",
     met_titulo: "From “I don't show up” to <em>“they find me”</em> in 4 steps",
@@ -149,14 +149,14 @@ const IDIOMAS = {
     campo_negocio_label: "Your business name", campo_negocio_ph: "e.g. Xcaret Hall",
     campo_servicio_label: "What do you need?", campo_mensaje_label: "Tell us more (optional)", campo_mensaje_ph: "What does your business sell? Where is it?",
     opt_web: "Professional website", opt_google: "Google Business optimization", opt_whatsapp: "WhatsApp Business setup", opt_otro: "Other / I don't know, I need a diagnosis",
-    form_boton: "Send on WhatsApp 💬", form_ayuda: "The message opens in your WhatsApp ready to send.",
+    form_boton: "Send on WhatsApp", form_ayuda: "The message opens in your WhatsApp ready to send.",
     directo_titulo: "Easier? Message us directly", directo_boton: "WhatsApp direct",
     contacto_telefono: "+52 443 579 4642", contacto_telefono_lbl: "(call or message)",
     horario: "We reply Monday to Saturday, 9 am to 8 pm.",
-    ubicacion: "📍 Apatzingán, Michoacán · We work remotely with all of Mexico and the U.S.",
+    ubicacion: "Apatzingán, Michoacán · We work remotely with all of Mexico and the U.S.",
 
     pie_lema: "Clients from far away, businesses from here.",
-    pie_tel: "📞 +52 443 579 4642",
+    pie_tel: "+52 443 579 4642",
     pie_texto: "Digital visibility agency · Apatzingán, Michoacán",
     wa_aria: "Message us on WhatsApp"
   }

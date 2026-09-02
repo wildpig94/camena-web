@@ -14,7 +14,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230F2B46'/><text x='50' y='68' font-size='52' font-family='Arial' font-weight='bold' fill='%23D9B44A' text-anchor='middle'>C</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/estilos.css" />
   <script type="application/ld+json">
   {
@@ -109,12 +109,12 @@
           </p>
           <div class="problema__cajas">
             <div class="problema__caja">
-              <span class="problema__icono">📵</span>
+              <span class="problema__icono" aria-hidden="true">×</span>
               <h3 data-i18n="prob_caja1_h3">Sin presencia digital</h3>
               <p data-i18n="prob_caja1_p">Solo te encuentran los que ya te conocen de vista.</p>
             </div>
             <div class="problema__caja">
-              <span class="problema__icono">➡️</span>
+              <span class="problema__icono" aria-hidden="true">→</span>
               <h3 data-i18n="prob_caja2_h3">Con presencia digital</h3>
               <p data-i18n="prob_caja2_p">Te encuentran desde cualquier ciudad, te ven, te escriben y te pagan.</p>
             </div>
@@ -133,8 +133,8 @@
         </div>
 
         <div class="servicios">
-          <article class="servicio">
-            <span class="servicio__icono">🌐</span>
+          <article class="servicio servicio--destacado">
+            <span class="servicio__numero" aria-hidden="true">01</span>
             <h3 class="servicio__titulo" data-i18n="sv1_titulo">Sitio web profesional</h3>
             <p class="servicio__texto" data-i18n="sv1_texto">
               Tu negocio en internet con tus fotos reales, horarios, menú o
@@ -150,7 +150,7 @@
           </article>
 
           <article class="servicio">
-            <span class="servicio__icono">📍</span>
+            <span class="servicio__numero" aria-hidden="true">02</span>
             <h3 class="servicio__titulo" data-i18n="sv2_titulo">Optimización de Google Business</h3>
             <p class="servicio__texto" data-i18n="sv2_texto">
               Que tu negocio aparezca cuando buscan "cafetería en Apatzingán",
@@ -166,7 +166,7 @@
           </article>
 
           <article class="servicio">
-            <span class="servicio__icono">💬</span>
+            <span class="servicio__numero" aria-hidden="true">03</span>
             <h3 class="servicio__titulo" data-i18n="sv3_titulo">Configuración de WhatsApp Business</h3>
             <p class="servicio__texto" data-i18n="sv3_texto">
               Convierte tu WhatsApp en una herramienta de ventas profesional:
@@ -183,7 +183,7 @@
         </div>
 
         <p class="servicios__nota" data-i18n="serv_nota">
-          💡 Cada negocio es distinto, por eso no publicamos un precio fijo.
+          Cada negocio es distinto, por eso no publicamos un precio fijo.
           Cotiza gratis y te mandamos una propuesta clara, sin compromiso.
         </p>
       </div>
@@ -227,10 +227,10 @@
     <section class="seccion seccion--confianza">
       <div class="contenedor">
         <div class="confianza">
-          <div class="confianza__item"><span class="confianza__icono">🔒</span><p data-i18n="conf_1">Diagnóstico 100% gratuito y sin compromiso</p></div>
-          <div class="confianza__item"><span class="confianza__icono">⚡</span><p data-i18n="conf_2">Publicamos tu sitio en internet en días</p></div>
-          <div class="confianza__item"><span class="confianza__icono">📛</span><p data-i18n="conf_3">El sitio y tu dominio son tuyos</p></div>
-          <div class="confianza__item"><span class="confianza__icono">🤝</span><p data-i18n="conf_4">Propuesta clara antes de pagar, sin letras chiquitas</p></div>
+          <div class="confianza__item"><span class="confianza__icono" aria-hidden="true">✓</span><p data-i18n="conf_1">Diagnóstico 100% gratuito y sin compromiso</p></div>
+          <div class="confianza__item"><span class="confianza__icono" aria-hidden="true">✓</span><p data-i18n="conf_2">Publicamos tu sitio en internet en días</p></div>
+          <div class="confianza__item"><span class="confianza__icono" aria-hidden="true">✓</span><p data-i18n="conf_3">El sitio y tu dominio son tuyos</p></div>
+          <div class="confianza__item"><span class="confianza__icono" aria-hidden="true">✓</span><p data-i18n="conf_4">Propuesta clara antes de pagar, sin letras chiquitas</p></div>
         </div>
       </div>
     </section>
@@ -295,20 +295,32 @@
               <span data-i18n="campo_mensaje_label">Cuéntanos más (opcional)</span>
               <textarea id="campoMensaje" name="mensaje" rows="3" placeholder="¿Qué vende tu negocio? ¿Dónde está?" data-i18n-placeholder="campo_mensaje_ph"></textarea>
             </label>
-            <button type="submit" class="boton boton--dorado boton--ancho" data-i18n="form_boton">Enviar por WhatsApp 💬</button>
+            <button type="submit" class="boton boton--dorado boton--ancho" data-i18n="form_boton">Enviar por WhatsApp</button>
             <p class="contacto__ayuda" data-i18n="form_ayuda">El mensaje se abre en tu WhatsApp listo para enviar.</p>
           </form>
 
           <div class="contacto__directo">
             <p class="contacto__titulo" data-i18n="directo_titulo">¿Más fácil? Escríbenos directo</p>
             <a class="contacto__boton" id="waDirecto" href="https://wa.me/524435794642" target="_blank" rel="noopener">
-              <span class="contacto__icono">💬</span>
+              <span class="contacto__icono">
+                <svg viewBox="0 0 32 32" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.2 7L4 29l7.2-2.1c1.5.8 3.1 1.1 4.8 1.1 6.6 0 12-5.4 12-12S22.6 3 16 3zm5.9 16.4c-.3.8-1.7 1.5-2.4 1.6-.6.1-1.4.1-2.2-.1-.5-.2-1.1-.4-1.9-.7-3.3-1.4-5.4-4.8-5.6-5-.2-.2-1.3-1.8-1.3-3.4s.8-2.4 1.1-2.7c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.5.8 1.9.8 2 .1.1.2.3.1.5-.1.2-.1.4-.2.5l-.4.6c-.1.2-.3.3-.1.6.1.3.7 1.1 1.5 1.8 1 1 1.9 1.4 2.2 1.5.3.1.4.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.1.1.7-.2 1.5z"/></svg>
+              </span>
               <span data-i18n="directo_boton">WhatsApp directo</span>
             </a>
-            <p class="contacto__telefono">📞 <a href="tel:+524435794642" data-i18n="contacto_telefono">+52 443 579 4642</a> <span data-i18n="contacto_telefono_lbl">(llámanos o escribe)</span></p>
-            <p class="contacto__correo">✉️ <a href="mailto:camenalabs@proton.me">camenalabs@proton.me</a></p>
+            <p class="contacto__telefono">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.2 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.8 2z"/></svg>
+              <a href="tel:+524435794642" data-i18n="contacto_telefono">+52 443 579 4642</a>
+              <span data-i18n="contacto_telefono_lbl">(llámanos o escribe)</span>
+            </p>
+            <p class="contacto__correo">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+              <a href="mailto:camenalabs@proton.me">camenalabs@proton.me</a>
+            </p>
             <p class="contacto__horario" data-i18n="horario">Respondemos de lunes a sábado, de 9 am a 8 pm.</p>
-            <p class="contacto__ubicacion" data-i18n="ubicacion">📍 Apatzingán, Michoacán · Trabajamos a distancia con todo México y EE. UU.</p>
+            <p class="contacto__ubicacion">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span data-i18n="ubicacion">Apatzingán, Michoacán · Trabajamos a distancia con todo México y EE. UU.</span>
+            </p>
           </div>
         </div>
       </div>
@@ -320,7 +332,7 @@
     <div class="contenedor pie__interior">
       <p class="pie__marca"><img src="imagenes/logo-faro.svg" alt="" class="pie__marca__img" /> CAMENA</p>
       <p class="pie__lema" data-i18n="pie_lema">Clientes de fuera, negocios de aquí.</p>
-      <a class="pie__tel" href="tel:+524435794642" data-i18n="pie_tel">📞 +52 443 579 4642</a>
+      <a class="pie__tel" href="tel:+524435794642" data-i18n="pie_tel">+52 443 579 4642</a>
       <p class="pie__texto" data-i18n="pie_texto">Agencia de visibilidad digital · Apatzingán, Michoacán</p>
       <p class="pie__credito">© <span id="anio">2026</span> CAMENA</p>
     </div>
