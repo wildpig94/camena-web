@@ -67,38 +67,6 @@ const TEXTO_DIRECTO =
     });
   }
 
-  /* ── Aparición al hacer scroll (reveal) ── */
-  const selectores = [
-    ".seccion__encabezado",
-    ".problema__caja",
-    ".servicio",
-    ".servicios__nota",
-    ".paso",
-    ".confianza__item",
-    ".faq__item",
-    ".contacto__formulario",
-    ".contacto__directo"
-  ];
-  const elementos = [];
-  selectores.forEach(function (sel) {
-    document.querySelectorAll(sel).forEach(function (el) { elementos.push(el); });
-  });
-
-  if ("IntersectionObserver" in window) {
-    const observador = new IntersectionObserver(function (entradas) {
-      entradas.forEach(function (entrada) {
-        if (entrada.isIntersecting) {
-          entrada.target.classList.add("reveal--visible");
-          observador.unobserve(entrada.target);
-        }
-      });
-    }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
-
-    elementos.forEach(function (el) { el.classList.add("reveal"); observador.observe(el); });
-  } else {
-    elementos.forEach(function (el) { el.classList.add("reveal--visible"); });
-  }
-
   /* ── Año dinámico ── */
   const anio = document.getElementById("anio");
   if (anio) anio.textContent = new Date().getFullYear();
