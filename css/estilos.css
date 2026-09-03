@@ -1,15 +1,15 @@
 /* ═══════════════════════════════════════════
    CAMENA — Diseño editorial (2026)
-   Paleta: azul medianoche · dorado · crema
+   Paleta: negro · dorado · crema
    Tipografía: Fraunces (títulos, serif con carácter) + Inter (texto)
    ✓ Bento grid asimétrico · ✓ Numeración editorial · ✓ Micro-interacciones
    ═══════════════════════════════════════════ */
 
 :root {
-  --navy: #0d2740;
-  --navy-oscuro: #081b2e;
-  --navy-mas: #050f1a;
-  --navy-suave: #17406b;
+  --navy: #0b0b0c;         /* negro */
+  --navy-oscuro: #161616;  /* negro suave */
+  --navy-mas: #000000;     /* negro puro */
+  --navy-suave: #1f1f21;   /* gris oscuro */
   --dorado: #e3b84e;
   --dorado-claro: #f0cf78;
   --dorado-oscuro: #c69a2f;
@@ -17,11 +17,11 @@
   --crema: #f6f3ea;
   --crema-suave: #fbfaf6;
   --blanco: #ffffff;
-  --texto: #18232f;
-  --texto-claro: #45525e;
+  --texto: #141414;
+  --texto-claro: #4a4a4a;
   --borde: #e6e9ee;
-  --sombra: 0 24px 60px rgba(8, 28, 48, 0.16);
-  --sombra-suave: 0 10px 30px rgba(8, 28, 48, 0.08);
+  --sombra: 0 24px 60px rgba(0, 0, 0, 0.16);
+  --sombra-suave: 0 10px 30px rgba(0, 0, 0, 0.08);
   --radio: 20px;
   --radio-sm: 12px;
   --fuente: "Inter", system-ui, -apple-system, sans-serif;
@@ -58,7 +58,7 @@ em { font-style: normal; color: var(--dorado-texto); }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(5, 15, 26, 0.85);
+  background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(14px) saturate(1.4);
   -webkit-backdrop-filter: blur(14px) saturate(1.4);
   border-bottom: 1px solid rgba(227, 184, 78, 0.12);
@@ -168,7 +168,7 @@ em { font-style: normal; color: var(--dorado-texto); }
   color: #fff;
   overflow: hidden;
   background:
-    linear-gradient(135deg, rgba(4, 11, 20, 0.96), rgba(7, 19, 33, 0.9) 55%, rgba(12, 36, 60, 0.72)),
+    linear-gradient(135deg, rgba(0, 0, 0, 0.96), rgba(12, 12, 12, 0.92) 55%, rgba(30, 30, 30, 0.78)),
     url("../imagenes/muse-fondo-oscura.jpg") center/cover no-repeat;
   isolation: isolate;
 }
@@ -214,7 +214,7 @@ em { font-style: normal; color: var(--dorado-texto); }
   text-transform: uppercase;
   color: var(--dorado-claro);
   border: 1px solid rgba(227, 184, 78, 0.4);
-  background: rgba(5, 15, 26, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 9px 18px;
   border-radius: 999px;
   margin-bottom: 30px;
@@ -282,7 +282,7 @@ em { font-style: normal; color: var(--dorado-texto); }
 .seccion--navy {
   position: relative;
   background:
-    linear-gradient(rgba(4, 11, 20, 0.94), rgba(6, 16, 28, 0.96)),
+    linear-gradient(rgba(0, 0, 0, 0.94), rgba(14, 14, 14, 0.96)),
     url("../imagenes/muse-fondo-oscura.jpg") center/cover no-repeat;
   color: #fff;
 }
@@ -415,7 +415,7 @@ em { font-style: normal; color: var(--dorado-texto); }
 /* Tarjeta destacada: bloque oscuro de contraste */
 .servicio--destacado {
   grid-row: span 2;
-  background: linear-gradient(155deg, #0d2740 0%, #07182a 100%);
+  background: linear-gradient(155deg, #161616 0%, #050505 100%);
   color: #fff;
   border: 1px solid rgba(227, 184, 78, 0.25);
   padding: 46px 38px;
@@ -471,7 +471,7 @@ em { font-style: normal; color: var(--dorado-texto); }
   color: var(--dorado-claro);
   background: linear-gradient(135deg, var(--navy), var(--navy-suave));
   border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(8, 28, 48, 0.25);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 .paso__titulo { font-family: var(--fuente-titulo); font-size: 1.18rem; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
 .paso__texto { color: var(--texto-claro); font-size: 0.94rem; }
@@ -483,16 +483,7 @@ em { font-style: normal; color: var(--dorado-texto); }
   margin: 0 auto;
   text-align: center;
 }
-.confianza__frase {
-  font-family: var(--fuente-titulo);
-  font-size: clamp(1.5rem, 3.5vw, 2.05rem);
-  font-weight: 500;
-  line-height: 1.35;
-  color: var(--navy);
-  margin-bottom: 20px;
-}
-.confianza__frase strong { color: var(--dorado-texto); font-weight: 600; }
-.confianza__sub { color: var(--texto-claro); font-size: 0.96rem; }
+.confianza__sub { color: var(--texto-claro); font-size: 1.05rem; }
 
 /* ── FAQ ────────────────────────────────── */
 .faq { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
@@ -611,7 +602,7 @@ em { font-style: normal; color: var(--dorado-texto); }
 /* ── Pie ────────────────────────────────── */
 .pie {
   background:
-    linear-gradient(rgba(4, 11, 20, 0.95), rgba(5, 14, 24, 0.98)),
+    linear-gradient(rgba(0, 0, 0, 0.95), rgba(8, 8, 8, 0.98)),
     url("../imagenes/muse-fondo-oscura.jpg") center/cover;
   color: #9fb0c1;
   padding: 52px 0;
@@ -679,7 +670,7 @@ html.js .hero__contenido { opacity: 0; transform: translateY(20px); animation: h
     flex-direction: column;
     align-items: stretch;
     gap: 4px;
-    background: rgba(5, 15, 26, 0.98);
+    background: rgba(0, 0, 0, 0.98);
     width: min(320px, 85vw);
     padding: 24px 26px 32px;
     border-radius: 0 0 0 20px;

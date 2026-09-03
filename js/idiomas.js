@@ -48,7 +48,6 @@ const IDIOMAS = {
     p3_titulo: "Desarrollo", p3_texto: "Creamos tu sitio con tus fotos y datos reales; te lo mostramos antes de publicar.",
     p4_titulo: "Entrega y seguimiento", p4_texto: "Publicamos tu sitio y lo mantenemos actualizado con tu renta mensual.",
 
-    conf_frase: "Soy <strong>Edgar</strong>, vivo en Apatzingán y me encargo personalmente de cada sitio: lo diseño, lo publico y lo mantengo yo, sin call centers ni intermediarios.",
     conf_sub: "Diagnóstico gratuito · El sitio y tu dominio son tuyos · Publicamos en días.",
 
     faq_etiqueta: "Preguntas frecuentes",
@@ -126,7 +125,6 @@ const IDIOMAS = {
     p3_titulo: "Development", p3_texto: "We build your site with your real photos and data; we show it to you before publishing.",
     p4_titulo: "Delivery and follow-up", p4_texto: "We publish your site and keep it updated with your monthly fee.",
 
-    conf_frase: "I'm <strong>Edgar</strong>, I live in Apatzingán and I personally handle every site — I design it, publish it and maintain it myself, with no call centers or middlemen.",
     conf_sub: "Free diagnosis · The site and your domain are yours · Published in days.",
 
     faq_etiqueta: "FAQ",
